@@ -32,7 +32,8 @@
               <img src="{{ asset('storage/'.Auth::user()->image) }}" class="rounded-circle" width="150" />
             @endif
 
-            <h4 class="card-title mt-2">AQUA</h4>
+            <h4 class="card-title mt-2"><input type="text" name="name"   readonly value="{{ Auth::user()->name }}" placeholder="Johnathan Doe"
+              class="form-control ps-0 form-control-line @error('name') is-invalid @enderror"></h4>
             <h6 class="card-subtitle">CUSTOMER</h6>
             <div class="row justify-content-center">
               <div class="col-4">

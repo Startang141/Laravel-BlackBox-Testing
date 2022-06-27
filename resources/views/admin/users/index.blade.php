@@ -41,7 +41,7 @@
               <thead>
                 <tr>
                   <th class="border-top-0">#</th>
-                  <th class="border-top-0">Nama User</th>
+                  <th class="border-top-0">Email User</th>
                   <th class="border-top-0">Alamat</th>
                   <th class="border-top-0">Nomer HP</th>
                   <th class="border-top-0">Jenis Kelamin</th>
